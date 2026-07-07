@@ -1,0 +1,32 @@
+nav img {
+    width: 75px;
+    height: auto;
+    border-radius: 45%;
+    margin-left: 1em;
+    margin-top: .5em;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li a {
+    display: block;
+    font-family: 'Serifa Bold', 'Mortise';
+    font-size: 1.2em;
+    padding: 0.5em;
+    margin: 0;
+    margin-top: -70px;
+    color: #A0A0A0;
+} 
+nav ul li a:hover {
+        color: #151575;
+}
+a:link {
+    color: #A0A0A0;
+}
+a:visited {
+    color: #151575;
+}
