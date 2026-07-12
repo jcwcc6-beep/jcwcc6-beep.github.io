@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+     <section id='contact'>
+<header>
+    <nav>
+        <img src="images/logo.png" alt="Your Site Logo" class="logo">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+                <a href="projects.html">Projects</a>
+                <ul class="dropdown-menu">
+                    <li><a href="project1.html">The Slickery Road</a></li>
+                    <li><a href="project2.html">You Don't Know What You Don't Know</a></li>
+                </ul>
+            </li>
+            <li><a href="reflection.html">Reflection</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Contact Me!</h1>
+</header>
+<main>
+<div class="form">
+<label>Your Information:</label>
+<form>
+<ul>
+    <li><label>Name:</label>
+        <select name="Title" size="1" required>
+<option>Mr.</option>
+<option>Ms.</option>
+<option>Mrs.</option>
+<option>Dr.</option>
+</select>
+<input type="text" name="customername" placeholder="Your name" required>
+    </li>
+    <li><label>Address:</label>
+        <input type="text" name="address" placeholder="Your address" required>
+    </li>
+    <li><label>Telephone Number:</label>
+        <input type="tel" name="telephone" placeholder="Your phone number" required>
+    </li>
+    <li><label>Email:</label>
+        <input type="email" name="email" placeholder="Your email" required>
+    </li>
+<label>Tell me about yourself!</label>
+        <br><textarea name="response" rows="4" cols="60" maxlength="400" placeholder="No more than 400 characters long" required></textarea>
+<br>
+<label>What can I help you with? Please choose all that apply.</label>
+<li><input type="checkbox" name="job type" value="photo">Photo</li>
+<li><input type="checkbox" name="job type" value="video">Video</li>
+<li><input type="radio" name="job" value="senior">Senior Session</li>
+<li><input type="radio" name="job" value="wedding">Wedding</li>
+<li><input type="radio" name="job" value="worship">Worship</li>
+<li><input type="radio" name="job" value="documentary">Documentary</li>
+<li><input type="radio" name="job" value="shortfilm">Short Film</li>
+</ul>
+<p><input type="submit" value="Thank You!">
+<br>
+<br><input type="reset"></p>
+</form>
+</div>
+</main>
+<footer>
+    <p>Joseph Winterbower<br>
+        <img class="contact-icon" src="images/icons/phone_icon.png" alt="small black phone icon"> (573) 544- 3244<br>
+        <img class="contact-icon" src="images/icons/email_icon.png" alt="small black email icon"> jcwcc6@umsystem.edu<br>
+    </p>
+<!--Here I will put a link to an instagram portfolio once I make it.-->
+</footer>
+</section>
+</body>
+
+</html>
